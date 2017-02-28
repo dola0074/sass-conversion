@@ -1,0 +1,7 @@
+// MIXINS
+@mixin tablet {
+    @media all and (min-width: 35rem) {
+
+        @content;
+    }
+}
